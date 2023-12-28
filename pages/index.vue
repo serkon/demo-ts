@@ -1,7 +1,40 @@
 <template>
-  <div class="page-index">
+  <div class="flex flex-col h-screen overflow-auto page-index scrollbar-thin scrollbar-thumb-sky-700 scrollbar-track-sky-300 h-32 overflow-y-scroll">
     <h1>Index Page</h1>
-    <div class="content">content here</div>
+    <p class="content w-full border border-red-500">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
+    <p class="content">content here</p>
   </div>
 </template>
 
@@ -13,8 +46,19 @@ export default Vue.extend({
 })
 </script>
 <style>
+
+html, body {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border: 1px solid green;
+}
+
+
 .content{
-  border: 1px solid red;
-  @apply p-4 bg-dede-400;
+  background-color: azure;
+  padding: 24px;
 }
 </style>
